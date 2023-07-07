@@ -60,7 +60,7 @@ int main(void)
                 case WEST: horzSteps--; break;
             }
 
-            std::pair<int, int> loc = std::pair<int, int>(horzSteps, vertSteps);
+            std::pair<int, int> loc(horzSteps, vertSteps);
             if (visited.count(loc)) 
             {
                 found = true;
