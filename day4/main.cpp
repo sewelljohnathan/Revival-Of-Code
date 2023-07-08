@@ -44,14 +44,7 @@ int main(void)
             {
                 continue;
             }
-            if (map.count(c)) 
-            {
-                map.at(c) += 1;
-            }
-            else 
-            {
-                map.insert(std::pair<char, int>(c, 1));
-            }
+            map[c]++;
         }
         for (const auto & i: map) 
         {
