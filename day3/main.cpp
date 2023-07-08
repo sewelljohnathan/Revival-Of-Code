@@ -16,7 +16,8 @@ int main(void)
         nums.push_back(std::stoi(s));
     }
 
-    for (int i = 0; i < nums.size() - 6; i += 9) {
+    for (int i = 0; i < nums.size() - 6; i += 9) 
+    {
 
         for (int j = i; j < i + 3; j++) 
         {
