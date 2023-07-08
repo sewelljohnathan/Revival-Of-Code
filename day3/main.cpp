@@ -14,10 +14,6 @@ int main(void)
     while (inFile >> s) 
     {
         nums.push_back(std::stoi(s));
-        inFile >> s;
-        nums.push_back(std::stoi(s));
-        inFile >> s;
-        nums.push_back(std::stoi(s));
     }
 
     for (int i = 0; i < nums.size() - 6; i += 9) {
